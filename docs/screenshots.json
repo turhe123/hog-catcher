@@ -1,0 +1,5 @@
+[
+  {"file":"01-popover.png","caption":"The menu bar popover lists the top five CPU users live, along with recent hog incidents.","alt":"HogCatcher popover listing live CPU usage per app"},
+  {"file":"02-settings.png","caption":"In Settings you can tune the CPU threshold and duration, run only on battery, manage the allow list and turn notifications on or off.","alt":"HogCatcher Settings window"},
+  {"file":"03-quit-menu.png","caption":"Right-click any app in the list to quit it, force quit it, or add it to the allow list.","alt":"Context menu on an app row with Quit, Force Quit and Add to Allow List"}
+]

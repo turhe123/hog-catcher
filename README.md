@@ -1,5 +1,7 @@
 # HogCatcher
 
+**🌐 Website:** [turhe123.github.io/hog-catcher](https://turhe123.github.io/hog-catcher/)
+
 **Warns you when an app quietly burns CPU in the background, so you can quit it and save battery.**
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -32,7 +34,17 @@ HogCatcher is a free, open-source, 100% native, backend-free alternative to paid
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-popover.png" alt="HogCatcher popover listing live CPU usage per app" width="720"></p>
+
+<p align="center"><em>The menu bar popover lists the top five CPU users live, along with recent hog incidents.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="HogCatcher Settings window" width="560"></p>
+
+<p align="center"><em>In Settings you can tune the CPU threshold and duration, run only on battery, manage the allow list and turn notifications on or off.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-quit-menu.png" alt="Context menu on an app row with Quit, Force Quit and Add to Allow List" width="560"></p>
+
+<p align="center"><em>Right-click any app in the list to quit it, force quit it, or add it to the allow list.</em></p>
 
 ## Install
 

@@ -1,0 +1,60 @@
+{
+  "seo_title": "Background CPU hog catcher for macOS",
+  "seo_description": "HogCatcher is a free, open-source menu bar app that warns you when an app burns CPU in the background, so you can quit it and save battery.",
+  "hero_title_line1": "Find the app",
+  "hero_title_accent": "draining your battery.",
+  "hero_sub": "HogCatcher lives in your menu bar and warns you when a background app keeps your CPU busy. Click the flame to see the top offenders and quit one in a click.",
+  "features_title": "One sharp job, done well.",
+  "features_sub": "HogCatcher watches for sustained background CPU use and gives you a quick way to deal with it.",
+  "features": [
+    {
+      "icon": "cpu",
+      "title": "Sustained background CPU detection",
+      "desc": "CPU use is sampled every 5 seconds. An app is flagged when it stays above your threshold (default 60% of one core) for your chosen time (default 3 minutes) while it is not frontmost."
+    },
+    {
+      "icon": "window",
+      "title": "Live top five in the menu bar",
+      "desc": "The flame icon is gray when things are calm and orange while a hog is active. The popover shows the top five CPU users with live bars, with browsers and their helpers grouped as one app."
+    },
+    {
+      "icon": "bell",
+      "title": "Notifications you can act on",
+      "desc": "Each warning names the app, how hard and how long it ran, with Quit App, Ignore for Today and Never Warn buttons. Repeat warnings for the same app are snoozed for 30 minutes."
+    },
+    {
+      "icon": "sliders",
+      "title": "Tunable thresholds and allow list",
+      "desc": "Set the CPU threshold from 20 to 200% and the duration from 1 to 30 minutes. Add video editors, compilers and other apps that are expected to be busy to the allow list."
+    },
+    {
+      "icon": "battery",
+      "title": "Battery-only watching",
+      "desc": "Turn on the option to watch only while you are on battery. While plugged in, the popover shows that monitoring is paused."
+    },
+    {
+      "icon": "shield",
+      "title": "Built-in safety rails",
+      "desc": "Force Quit asks for confirmation, and Finder, WindowServer, loginwindow, kernel_task and HogCatcher itself are never offered for quitting. Root-owned system processes are listed for information only."
+    }
+  ],
+  "permissions_step": "Allow notifications when prompted (or later in System Settings > Notifications > HogCatcher); no other permissions are needed.",
+  "faq": [
+    {
+      "q": "Is HogCatcher really free and open source?",
+      "a": "Yes. It is released under the MIT license and the full source is on GitHub. There is no account, server or analytics, and you can build it yourself with Xcode and XcodeGen."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Only notifications, so it can warn you about a hog. If you decline, the popover and incident list still work. It does not ask for Accessibility, Screen Recording, Full Disk Access or similar, and launch at login is optional."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Entirely on your Mac. Settings are kept in UserDefaults, and incident history (capped at 100 entries) is saved as JSON at ~/Library/Application Support/HogCatcher/incidents.json."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and HogCatcher is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it from source."
+    }
+  ]
+}
