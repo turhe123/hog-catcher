@@ -4,6 +4,8 @@
 
 **Warns you when an app quietly burns CPU in the background, so you can quit it and save battery.**
 
+> 🆓 A free, open-source **MenuBarMonitor alternative** for macOS 14+. Native Swift, no accounts, no subscriptions, MIT licensed.
+
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
 ![Swift 5.9](https://img.shields.io/badge/Swift-5.9-orange)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
@@ -85,6 +87,10 @@ Settings are stored in UserDefaults. Incident history is stored in `~/Library/Ap
 ## Support ❤️
 
 HogCatcher is free and always will be. If it saved your battery, you can [Support Or (Leo) Davidai ❤️](https://ko-fi.com/leodavidai) on Ko-fi. The app also has a **Support / Donate ❤️** button in the popover and in Settings.
+
+## More free Mac apps
+
+HogCatcher is one of [60 free, open-source Mac utilities](https://github.com/turhe123/mac-apps) built the same way: native Swift, no accounts, no telemetry. Browse the full gallery at [turhe123.github.io/mac-apps](https://turhe123.github.io/mac-apps/).
 
 ## License
 
